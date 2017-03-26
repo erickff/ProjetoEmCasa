@@ -1,6 +1,6 @@
 ﻿namespace ProjetoemCasa
 {
-    partial class Login
+    partial class FormLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -38,20 +38,20 @@
             // 
             // btnEntrar
             // 
-            this.btnEntrar.Location = new System.Drawing.Point(353, 114);
+            this.btnEntrar.Location = new System.Drawing.Point(330, 108);
             this.btnEntrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEntrar.Name = "btnEntrar";
-            this.btnEntrar.Size = new System.Drawing.Size(132, 42);
+            this.btnEntrar.Size = new System.Drawing.Size(157, 42);
             this.btnEntrar.TabIndex = 7;
             this.btnEntrar.Text = "Login";
             this.btnEntrar.UseVisualStyleBackColor = true;
             // 
             // btnCancelar
             // 
-            this.btnCancelar.Location = new System.Drawing.Point(165, 114);
+            this.btnCancelar.Location = new System.Drawing.Point(165, 108);
             this.btnCancelar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelar.Name = "btnCancelar";
-            this.btnCancelar.Size = new System.Drawing.Size(132, 42);
+            this.btnCancelar.Size = new System.Drawing.Size(157, 42);
             this.btnCancelar.TabIndex = 8;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
@@ -97,7 +97,7 @@
             this.lbUsuario.TabIndex = 5;
             this.lbUsuario.Text = "Usuário:";
             // 
-            // Login
+            // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -108,7 +108,8 @@
             this.Controls.Add(this.mskSenha);
             this.Controls.Add(this.tbUsuario);
             this.Controls.Add(this.lbUsuario);
-            this.Name = "Login";
+            this.MaximizeBox = false;
+            this.Name = "FormLogin";
             this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();

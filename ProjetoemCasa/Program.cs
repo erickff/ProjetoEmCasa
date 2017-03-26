@@ -18,7 +18,7 @@ namespace ProjetoemCasa
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new FormEscolheTeste());
             Application.Run(new FormLogin());
-            Console.WriteLine("bundao");
+            Console.WriteLine("testeb");
         }
     }
 }
